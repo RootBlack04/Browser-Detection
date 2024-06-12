@@ -1,0 +1,36 @@
+.title {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: beige;
+}
+.image-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.container-text {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  color: #333;
+}
+
+.icons {
+  margin-right: 20px;
+  width: 128px;
+  height: 128px;
+  cursor: pointer;
+  filter: grayscale(100%);
+}
+
+.active {
+  filter: none;
+}
