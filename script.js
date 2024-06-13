@@ -71,7 +71,7 @@ console.log(`Browser Version: ${browserVersion}`);
 
 console.log(navigator);
 */
-
+//----------------------------- Version 2 ------------------------
 const userAgent = navigator.userAgent;
 let browserName, browserVersion;
 
